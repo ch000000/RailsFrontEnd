@@ -4,16 +4,18 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
- 
-
- 
+  
 
 /* Simple Responsive Framework. */
+body {
+   font-size: 1em;
+}
 header {
    padding: 3% 3% 5% 3%;
 }
 h1 {
    text-align: center;
+   font-size: 1.75em;
 }
 div.row{
    width:100%;
@@ -26,12 +28,16 @@ div.title {
    top: 0; 
    right: -70%; 
    text-align: center;
+   font-weight: bold;
+   font-size: 1.25em;
 } 
+
 div.row div:nth-child(1) div.title {
    background-color: pink;
 }
 div.row div:nth-child(2) div.title {
    background-color: red;
+   color: white;
 }
 div.row div:nth-child(3) div.title {
    background-color: yellow;
@@ -40,7 +46,7 @@ div.section {
    background-color: #BFBEBE;
    border: 2px solid black; 
    text-align: center;
-   margin: 2%;
+   margin: 2%; 
 }
 div.content {
    text-align: left; 
@@ -51,8 +57,7 @@ div.content {
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left; 
-    border: 1px solid green;
+    float: left;  
   }
   .col-lg-1 {
     width: 8.33%;
@@ -96,7 +101,6 @@ div.content {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
