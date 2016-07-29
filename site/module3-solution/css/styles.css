@@ -1,0 +1,31 @@
+body {
+   font-size: 1.5em;
+}
+h1 {
+   font-size: 1.75em;
+   font-weight: bold;
+   padding-bottom: 15px;
+}
+h2 {
+   font-size: 1.25em;
+   font-weight: bold;
+}
+a.navbar-brand {
+   font-size: 1.25em;
+   font-weight: bold;
+}
+section.tall {
+   background-color: #C8C3C3;
+   height: 1000px; 
+}
+div.dish { 
+   padding: 15px;
+}
+div.navbar-header {
+   padding-left: 15px;
+}
+@media (max-width: 767px) {
+      .container-fluid {
+      padding-left: 35px;
+      padding-right: 35px; }
+}  
